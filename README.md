@@ -29,7 +29,7 @@
 ## 默认按键
 - FN + F1 切换 openRGB 模式
 - FN + F2 切换 SignalRGB + VIA 模式
-- FN + KC_SLCK 关闭灯效
+- FN + scroll lock 关闭灯效
 - FN + E 色调增加
 - FN + R 色调减少
 - FN + T 饱和度增加
