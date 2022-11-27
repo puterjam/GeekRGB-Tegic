@@ -5,7 +5,7 @@
 # 固件特性
 * 同时支持 VIA + SignalRGB + openRGB
 * 独立按键灯效配置，游戏场景联动
-* 增加两个自定义按键，用于切换 SignalRGB 和 openRGB 灯效。默认按键 FN+F1，FN+F2
+* 增加两个自定义按键，用于切换 SignalRGB 和 openRGB 灯效。
 
 
 ## 如何安装
@@ -26,6 +26,21 @@
 - config - 调整后的via配置
 - plugins - 一些软件配套的键盘插件
 
+## 默认按键
+FN + F1 切换 openRGB 模式
+FN + F2 切换 SignalRGB + VIA 模式
+FN + KC_SLCK 关闭灯效
+FN + E 色调增加
+FN + R 色调减少
+FN + T 饱和度增加
+FN + Y 饱和度减少
+FN + U 亮度增加
+FN + I 亮度减少
+FN + O 切换灯效
+
+Hue（色调、色相）
+Saturation（饱和度、色彩纯净度）
+Value（明度）
 ## 其他事项
 ### 1. 通过via修改按键布局
 * 只能在非OpenRGB模式下，才能通过via连接键盘进行设置
@@ -46,3 +61,4 @@
 
 ### 4. 固件源码在哪？
 https://github.com/puterjam/qmk_firmware/tree/GeekRGBRelease_2.0
+
