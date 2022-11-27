@@ -11,15 +11,25 @@
 ## 如何安装
 ### 1. 安装固件工具
 下载 QMK 键盘刷固件工具 qmk_toolbox
+
 下载地址：https://github.com/qmk/qmk_toolbox/releases
+
+第一次启动，会安装对应的键盘驱动，耐心等待即可
+
+![qmk toolbox](https://i.imgur.com/sPdvqUT.png)
 
 ### 2. 进入键盘 bootloader 模式
 拔掉USB线 - 长按 ESC 键（不松开）- 插上USB线 即进入键盘的 bootloader 模式。
 
 也可以通过在键盘布局中设置一个 QK_BOOT 按键一键进入。
 
+成功进入bootloader后，qmk toolbox 会提示
+
+```Atmel DFU device connected (libusb0): Atmel Corp. ATmega32U4 (03EB:2FF4:0000)```
+
+
 ### 3. 刷写固件
-把固件文件 melgeek_tegic_rev2_via_20221127.hex，拖拽到 qmk toolbox 的输入框, 点击 Flash 即可
+下载固件文件 melgeek_tegic_rev2_via_20221127.hex，拖拽到 qmk toolbox 的输入框, 点击 Flash 即可
 
 ## 目录说明
 - keyboards - 键盘源码，布局和配置
