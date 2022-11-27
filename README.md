@@ -22,7 +22,7 @@
 把固件文件 melgeek_tegic_rev2_via_20221127.hex，拖拽到 qmk toolbox 的输入框, 点击 Flash 即可
 
 ## 目录说明
-- keyboards - 键盘源码
+- keyboards - 键盘源码，布局和配置
 - config - 调整后的via配置
 - plugins - 一些软件配套的键盘插件
 
