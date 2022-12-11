@@ -1,7 +1,16 @@
-# Geek RGB Firmware v2 for Tegic Framism 
-
+# Geek RGB Firmware v2.1 for Tegic Framism 
 ![Tegic](https://i.imgur.com/qhNb7zi.png)
 
+# 固件特性
+* 更新 GeekRGB v2.1，完美解决 VIA 和 软件灯效冲突的问题
+* 还原官方默认内置灯效
+
+# 固件下载
+https://github.com/puterjam/GeekRGB-Firmware
+
+> 后续统一在新地址迭代固件
+
+# Geek RGB Firmware v2 （历史版本）
 # 固件特性
 * 同时支持 VIA + SignalRGB + openRGB
 * 独立按键灯效配置，游戏场景联动
